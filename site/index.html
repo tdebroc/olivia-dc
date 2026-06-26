@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Oliviata Catalog — Home</title>
+<meta name="description" content="A loving data-catalog tribute to Olivia Phan, Head of Metadata & Data Catalog at Kering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c8a86a'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' font-family='Georgia' fill='%232a2208'%3EO%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div class="shell">
+
+  <!-- ===== Sidebar ===== -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">O</div>
+      <div class="brand-name">The <b>Oliviata</b><br>Catalog</div>
+    </div>
+    <div class="brand-sub">Metadata, with love</div>
+
+    <div class="nav-group-label">Catalog</div>
+    <nav class="nav">
+      <a href="index.html" class="active"><span class="nav-ico">🏠</span> Home</a>
+      <a href="domains.html"><span class="nav-ico">🗂️</span> Domains</a>
+      <a href="marketplace.html"><span class="nav-ico">🛍️</span> Oliviata Product Marketplace</a>
+      <a href="glossary.html"><span class="nav-ico">📖</span> Glossary</a>
+      <a href="governance.html"><span class="nav-ico">⚖️</span> Data Governance</a>
+    </nav>
+
+    <div class="sidebar-foot">
+      <span class="badge good dot">Catalog status: thriving</span><br><br>
+      Curated for <b style="color:var(--gold-soft)">Olivia Phan</b><br>
+      Head of Metadata &amp; Data Catalog<br>
+      <span class="pulse">●</span> 5 years of impact @ Kering
+    </div>
+  </aside>
+
+  <!-- ===== Main ===== -->
+  <div class="main">
+    <div class="topbar">
+      <div style="display:flex;align-items:center;gap:14px;">
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+        <div class="crumbs"><a href="index.html"><b>The Oliviata Catalog</b></a> &nbsp;/&nbsp; Home</div>
+      </div>
+      <div class="topbar-right">
+        <span class="badge gold">v2026.06 · Farewell Edition</span>
+        <div class="avatar ring" title="Olivia Phan"><img src="assets/img/olivia-profile.png" alt="Olivia Phan"></div>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <!-- ===== Hero ===== -->
+      <section class="hero photo">
+        <span class="hero-credit">Kering HQ · Hôpital Laennec, Rue de Sèvres, Paris</span>
+        <img class="hero-art" src="assets/img/kering-hq.jpg" alt="Kering headquarters — Hôpital Laennec, Rue de Sèvres, Paris">
+        <div class="hero-overlay">
+          <div class="hero-eyebrow">Welcome to Kering · Data &amp; Metadata</div>
+          <h1 class="hero-title">The <b>Oliviata</b> Catalog</h1>
+          <p class="hero-tag">Where every data product is understandable, traceable and actionable —
+            just like the woman who built it. Search the catalog she gave us.</p>
+
+          <div class="search-wrap">
+            <div class="search">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <input id="catalogSearch" type="text" placeholder="Search domains, products, terms…  (try “smile”, “Saint Laurent”, “elegance”)" autocomplete="off" aria-label="Search the catalog">
+            </div>
+            <div class="search-results" id="searchResults"></div>
+            <div class="search-hint">Press <kbd>/</kbd> to search · <kbd>↵</kbd> to open · Psst — try typing <kbd>olivia</kbd> anywhere ✨</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Stats ===== -->
+      <div class="stats">
+        <div class="stat"><div class="num">5</div><div class="lbl">years leading Metadata @ Kering</div></div>
+        <div class="stat"><div class="num">∞</div><div class="lbl">innovative ideas shipped</div></div>
+        <div class="stat"><div class="num">6</div><div class="lbl">maisons &amp; domains served</div></div>
+        <div class="stat"><div class="num">100%</div><div class="lbl">sincere-smile uptime</div></div>
+      </div>
+
+      <!-- ===== Useful links ===== -->
+      <h2 class="block-title">Explore the catalog</h2>
+      <div class="grid cols-2">
+        <a class="card qlink" href="domains.html">
+          <span class="arrow">↗</span>
+          <span class="card-ico">🗂️</span>
+          <h3 class="card-title">Domains</h3>
+          <p class="card-desc">The business &amp; life domains Olivia has mastered — from Supply Chain to Sales,
+            from Hô Chi Minh to Paris. Every domain, beautifully documented.</p>
+          <div class="card-meta"><span class="badge">17 assets</span><span class="badge good dot">governed</span></div>
+        </a>
+
+        <a class="card qlink" href="marketplace.html">
+          <span class="arrow">↗</span>
+          <span class="card-ico">🛍️</span>
+          <h3 class="card-title">Oliviata Product Marketplace</h3>
+          <p class="card-desc">The self-service shelf of everything she built: Data Catalog, Governance Foundations,
+            PO Booster, Talk with Data… and one Great Team.</p>
+          <div class="card-meta"><span class="badge gold">6 flagship products</span><span class="badge">★ 5.0</span></div>
+        </a>
+
+        <a class="card qlink" href="glossary.html">
+          <span class="arrow">↗</span>
+          <span class="card-ico">📖</span>
+          <h3 class="card-title">Glossary</h3>
+          <p class="card-desc">The official business glossary — except every term is a trait of Olivia,
+            defined with the rigor of a data steward and the wink of a friend.</p>
+          <div class="card-meta"><span class="badge">8 certified terms</span><span class="badge gold">★ humour included</span></div>
+        </a>
+
+        <a class="card qlink" href="governance.html">
+          <span class="arrow">↗</span>
+          <span class="card-ico">⚖️</span>
+          <h3 class="card-title">Data Governance</h3>
+          <p class="card-desc">Policies, principles and the one and only Chief Data Steward.
+            Compliance, transparency and innovation — promoted by example.</p>
+          <div class="card-meta"><span class="badge good dot">policies active</span><span class="badge">steward: OP</span></div>
+        </a>
+      </div>
+
+      <!-- ===== Featured ===== -->
+      <h2 class="block-title">Featured this week</h2>
+      <div class="grid cols-3">
+        <a class="card" href="marketplace.html#data-catalog">
+          <span class="card-ico">📚</span>
+          <h3 class="card-title">Data Catalog <span class="badge gold">flagship</span></h3>
+          <p class="card-desc">“Metadata structures data to make it understandable, traceable, and actionable.” The product that started it all.</p>
+        </a>
+        <a class="card" href="glossary.html#smile">
+          <div class="card-photo"><img src="assets/img/olivia-smile.jpg" alt="Olivia smiling" loading="lazy"></div>
+          <h3 class="card-title">😊 Term of the day: Smile</h3>
+          <p class="card-desc">Her documented source of truth: “ta force est ton sourire sincère qui ne te trompera pas.”</p>
+        </a>
+        <a class="card" href="marketplace.html#great-team">
+          <div class="card-photo"><img src="assets/img/olivia-team.jpg" alt="Olivia with her team" loading="lazy"></div>
+          <h3 class="card-title">💛 A Great Team</h3>
+          <p class="card-desc">Her proudest data product. Zero defects, infinite warmth, ships excellence on every sprint.</p>
+        </a>
+      </div>
+
+      <!-- ===== Tribute gallery ===== -->
+      <h2 class="block-title">Snapshots from the catalog 📸</h2>
+      <p class="note" style="margin-top:-6px;margin-bottom:18px">A few un-deprecatable memories, lovingly indexed.</p>
+      <div class="gallery">
+        <div class="shot"><img src="assets/img/olivia-dinner-group.jpg" alt="Olivia at dinner with the team" loading="lazy"><span class="cap">Team dinner — at the petit soin, as always</span></div>
+        <div class="shot"><img src="assets/img/olivia-petanque.jpg" alt="Olivia playing pétanque" loading="lazy"><span class="cap">Pétanque in the park — precision is a transferable skill</span></div>
+        <div class="shot"><img src="assets/img/olivia-mentor.png" alt="Olivia and her mentor Yannick" loading="lazy"><span class="cap">With Yannick — building connections, always</span></div>
+      </div>
+
+      <!-- ===== Callout / tribute quote ===== -->
+      <div class="callout">
+        <div class="quote">“Aimer plus, donner plus, tomber, recommencer, apprendre davantage, toujours plus courageuse,
+          toujours plus joyeuse, s’engager plus, ne jamais abandonner, être soi. It’s all I need. ✨”</div>
+        <div class="cite">— Olivia Phan, on the only governance policy that ever really mattered</div>
+      </div>
+
+      <footer class="footer">
+        Built with <span class="heart">♥</span> by your team at Kering for <b>Olivia Phan</b> ·
+        The Netflix of Data Pioneer · Farewell &amp; thank you for everything.<br>
+        <span class="note">This is a fan-made, non-official tribute. All data products herein are 100% certified, 100% affectionate.</span>
+      </footer>
+    </div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

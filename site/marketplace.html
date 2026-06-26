@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oliviata Product Marketplace — The Oliviata Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c8a86a'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' font-family='Georgia' fill='%232a2208'%3EO%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">O</div>
+      <div class="brand-name">The <b>Oliviata</b><br>Catalog</div>
+    </div>
+    <div class="brand-sub">Metadata, with love</div>
+    <div class="nav-group-label">Catalog</div>
+    <nav class="nav">
+      <a href="index.html"><span class="nav-ico">🏠</span> Home</a>
+      <a href="domains.html"><span class="nav-ico">🗂️</span> Domains</a>
+      <a href="marketplace.html" class="active"><span class="nav-ico">🛍️</span> Oliviata Product Marketplace</a>
+      <a href="glossary.html"><span class="nav-ico">📖</span> Glossary</a>
+      <a href="governance.html"><span class="nav-ico">⚖️</span> Data Governance</a>
+    </nav>
+    <div class="sidebar-foot">
+      <span class="badge good dot">6 products · all certified</span><br><br>
+      Curated for <b style="color:var(--gold-soft)">Olivia Phan</b><br>
+      Head of Metadata &amp; Data Catalog<br>
+      <span class="pulse">●</span> Building the data mesh, beautifully
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div style="display:flex;align-items:center;gap:14px;">
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+        <div class="crumbs"><a href="index.html"><b>Catalog</b></a> &nbsp;/&nbsp; Oliviata Product Marketplace</div>
+      </div>
+      <div class="topbar-right">
+        <span class="badge gold">self-service · domain-driven</span>
+        <div class="avatar ring" title="Olivia Phan"><img src="assets/img/olivia-profile.png" alt="Olivia Phan"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="section-head">
+        <div class="section-eyebrow">Self-service · data mesh · 100% off-the-shelf</div>
+        <h1 class="section-title">Oliviata Product Marketplace</h1>
+        <p class="section-lead">Every product on this shelf was designed, led and shipped by Olivia.
+          Browse freely — they’re all open source, infinitely reusable, and impossible to deprecate.
+          <span class="badge gold" style="vertical-align:middle">★ 5.0 average · ∞ reviews</span></p>
+      </div>
+
+      <div class="grid cols-2">
+
+        <!-- Data Catalog -->
+        <article class="card product" id="data-catalog">
+          <div class="card-top">
+            <div>
+              <span class="card-ico">📚</span>
+              <h3 class="card-title">Data Catalog</h3>
+              <div class="stars">★★★★★ <span class="reviews">· the original flagship</span></div>
+            </div>
+            <div class="price">Priceless</div>
+          </div>
+          <p class="card-desc">The masterpiece. An engaging, intuitive platform where metadata makes data
+            understandable, traceable and actionable — across every Kering domain and maison.</p>
+          <ul>
+            <li>Off-the-shelf visibility of data assets for business &amp; tech</li>
+            <li>Promotes compliance, transparency &amp; innovation</li>
+            <li>Automated data lineage, source → dashboard</li>
+          </ul>
+          <div class="card-meta"><span class="badge gold">flagship</span><span class="badge">GCP-native</span><span class="badge good dot">in production</span></div>
+          <div class="cta" data-egg="The Data Catalog is fully self-documenting. So is Olivia. 📚">Add to org · Already adopted ✓</div>
+        </article>
+
+        <!-- Data Governance Foundations -->
+        <article class="card product" id="governance-foundations">
+          <div class="card-top">
+            <div>
+              <span class="card-ico">🏛️</span>
+              <h3 class="card-title">Data Governance Foundations</h3>
+              <div class="stars">★★★★★ <span class="reviews">· built to last</span></div>
+            </div>
+            <div class="price">Foundational</div>
+          </div>
+          <p class="card-desc">From zero to a trusted, compliant and transparent data organisation —
+            a collaborative governance platform that business and tech actually <em>want</em> to use.</p>
+          <ul>
+            <li>Designed &amp; led the implementation end-to-end</li>
+            <li>Change-management &amp; data-literacy programs</li>
+            <li>Upskilling sessions on governance &amp; catalog usage</li>
+          </ul>
+          <div class="card-meta"><span class="badge">governance</span><span class="badge">enablement</span><span class="badge good dot">stable release</span></div>
+          <div class="cta" data-egg="Governance you’ll love? Only Olivia could pull that off. 🏛️">Deploy foundations</div>
+        </article>
+
+        <!-- Data Product Marketplace -->
+        <article class="card product" id="marketplace">
+          <div class="card-top">
+            <div>
+              <span class="card-ico">🛍️</span>
+              <h3 class="card-title">Data Product Marketplace</h3>
+              <div class="stars">★★★★★ <span class="reviews">· the data-mesh engine</span></div>
+            </div>
+            <div class="price">Self-service</div>
+          </div>
+          <p class="card-desc">The marketplace that powers Kering’s data-mesh strategy — domain-driven ownership,
+            data literacy, and self-service publishing of data products across the group.</p>
+          <ul>
+            <li>Cross-domain: Supply Chain, Sales, Customer, Tech, Finance, Omnichannel</li>
+            <li>Domain-driven ownership, self-service model</li>
+            <li>Yes — this very page is a tribute to it 😉</li>
+          </ul>
+          <div class="card-meta"><span class="badge gold">data mesh</span><span class="badge">cross-domain</span><span class="badge good dot">scaling</span></div>
+          <div class="cta" data-egg="A marketplace inside a marketplace. Very meta. Very metadata. 🛍️">Browse products</div>
+        </article>
+
+        <!-- PO Booster -->
+        <article class="card product" id="po-booster">
+          <div class="card-top">
+            <div>
+              <span class="card-ico">🚀</span>
+              <h3 class="card-title">PO Booster</h3>
+              <div class="stars">★★★★★ <span class="reviews">· superhero serum for Product Owners</span></div>
+            </div>
+            <div class="price">+200% PO</div>
+          </div>
+          <p class="card-desc">Part backlog wizard, part confidence injection. Turns any Product Owner into a
+            data-product superhero — sharper specs, clearer value, happier teams.</p>
+          <ul>
+            <li>Backlog management, the Olivia way (always at the petit soin)</li>
+            <li>Functional knowledge captured &amp; contextualised</li>
+            <li>Side-effects: enthusiasm, clarity, the occasional pep talk</li>
+          </ul>
+          <div class="card-meta"><span class="badge">enablement</span><span class="badge">product</span><span class="badge good dot">GA</span></div>
+          <div class="cta" data-egg="Warning: PO Booster is highly addictive. Ask any Product Owner she coached. 🚀">Boost a PO</div>
+        </article>
+
+        <!-- Talk with Data -->
+        <article class="card product" id="talk-with-data">
+          <div class="card-top">
+            <div>
+              <span class="card-ico">🤖</span>
+              <h3 class="card-title">Talk with Data</h3>
+              <div class="stars">★★★★★ <span class="reviews">· generative-AI, embedded with taste</span></div>
+            </div>
+            <div class="price">Conversational</div>
+          </div>
+          <p class="card-desc">Ask your data anything, in plain words. A generative-AI layer that captures
+            functional knowledge and contextual explanations so anyone can understand, consume and design
+            more relevant data products.</p>
+          <ul>
+            <li>Embedded generative-AI capabilities</li>
+            <li>Demystifies data concepts for everyone</li>
+            <li>Speaks fluent Business <em>and</em> fluent Tech</li>
+          </ul>
+          <div class="card-meta"><span class="badge gold">GenAI</span><span class="badge">data literacy</span><span class="badge good dot">live</span></div>
+          <div class="cta" data-egg="Talk with Data was easy to build — she already talks with everyone. 🤖">Start a conversation</div>
+        </article>
+
+        <!-- A Great Team -->
+        <article class="card product" id="great-team">
+          <div class="product-photo"><img src="assets/img/olivia-team.jpg" alt="Olivia with her team at dinner" loading="lazy"></div>
+          <div class="card-top">
+            <div>
+              <span class="card-ico">💛</span>
+              <h3 class="card-title">A Great Team</h3>
+              <div class="stars">★★★★★ <span class="reviews">· her finest data product</span></div>
+            </div>
+            <div class="price">Irreplaceable</div>
+          </div>
+          <p class="card-desc">The product she’s proudest of, and the hardest to migrate away from.
+            A multidisciplinary crew — Tech Lead, Data Engineers, Lead Designer, Data Architects —
+            led with innovation, warmth and operational excellence.</p>
+          <ul>
+            <li>Built on trust, connection &amp; genuine care</li>
+            <li>SLA: always there, always at the petit soin</li>
+            <li>Known issue: will miss its product owner enormously 🥹</li>
+          </ul>
+          <div class="card-meta"><span class="badge gold">people</span><span class="badge">leadership</span><span class="badge good dot">forever grateful</span></div>
+          <div class="cta" data-egg="A Great Team: the only data product that loves its owner back. 💛">Say thank you</div>
+        </article>
+
+      </div>
+
+      <div class="callout" style="margin-top:34px">
+        <div class="quote">“Developed a data marketplace to support Kering’s data-mesh strategy, promoting data literacy
+          and enabling domain-driven ownership through a self-service model.”</div>
+        <div class="cite">— straight from Olivia’s résumé. We just added the gift wrapping. 🎁</div>
+      </div>
+
+      <footer class="footer">
+        Every product here ships with a lifetime warranty of gratitude. · <b>The Oliviata Catalog</b>
+      </footer>
+    </div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+  // playful CTA winks specific to the marketplace
+  document.querySelectorAll('.cta[data-egg]').forEach(b => b.addEventListener('click', () => {
+    const t = document.getElementById('eggToast') || (() => {
+      const e = document.createElement('div'); e.id='eggToast'; e.className='toast'; document.body.appendChild(e); return e;
+    })();
+    t.textContent = b.dataset.egg; t.classList.add('show');
+    clearTimeout(t._t); t._t = setTimeout(()=>t.classList.remove('show'), 4200);
+  }));
+</script>
+</body>
+</html>

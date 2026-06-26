@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glossary — The Oliviata Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c8a86a'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' font-family='Georgia' fill='%232a2208'%3EO%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">O</div>
+      <div class="brand-name">The <b>Oliviata</b><br>Catalog</div>
+    </div>
+    <div class="brand-sub">Metadata, with love</div>
+    <div class="nav-group-label">Catalog</div>
+    <nav class="nav">
+      <a href="index.html"><span class="nav-ico">🏠</span> Home</a>
+      <a href="domains.html"><span class="nav-ico">🗂️</span> Domains</a>
+      <a href="marketplace.html"><span class="nav-ico">🛍️</span> Oliviata Product Marketplace</a>
+      <a href="glossary.html" class="active"><span class="nav-ico">📖</span> Glossary</a>
+      <a href="governance.html"><span class="nav-ico">⚖️</span> Data Governance</a>
+    </nav>
+    <div class="sidebar-foot">
+      <span class="badge good dot">8 terms · all certified</span><br><br>
+      Every definition reviewed &amp; approved by<br>
+      <b style="color:var(--gold-soft)">the Chief Data Steward</b> herself<br>
+      <span class="pulse">●</span> Single source of truth: Olivia
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div style="display:flex;align-items:center;gap:14px;">
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+        <div class="crumbs"><a href="index.html"><b>Catalog</b></a> &nbsp;/&nbsp; Glossary</div>
+      </div>
+      <div class="topbar-right">
+        <span class="badge gold">business glossary · certified</span>
+        <div class="avatar ring" title="Olivia Phan"><img src="assets/img/olivia-profile.png" alt="Olivia Phan"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="section-head">
+        <div class="section-eyebrow">Business Glossary · controlled vocabulary of Olivia</div>
+        <h1 class="section-title">Glossary</h1>
+        <p class="section-lead">A good catalog needs a shared vocabulary. Here, every term is a trait of Olivia —
+          rigorously defined, formally certified, and (because she’d want it that way) delivered with a smile.</p>
+      </div>
+
+      <div class="gloss-controls">
+        <span class="chip active" data-filter="all">All terms</span>
+        <span class="chip" data-filter="character">Character</span>
+        <span class="chip" data-filter="style">Style</span>
+        <span class="chip" data-filter="world">World</span>
+        <span class="chip" data-filter="soul">Soul</span>
+      </div>
+
+      <!-- Creativity -->
+      <div class="term" id="creativity" data-class="character">
+        <div class="term-head">
+          <span class="term-name">Creativity</span>
+          <span class="term-pron">/kɹi.eɪˈtɪv.ə.ti/ · noun</span>
+          <span class="term-class">Character</span>
+        </div>
+        <p class="term-def">A perpetual, schema-less generator of innovative ideas. Operates with no rate limit and
+          no throttling — feed it any problem and it returns three solutions, a moodboard, and a fourth idea
+          nobody asked for but everybody ends up loving.</p>
+        <div class="term-ex"><b>Usage:</b> “We only had a roadmap; after one coffee with Olivia we had a <b>vision</b>.”</div>
+        <div class="term-rel"><span class="lbl">Related</span>
+          <a href="#connection" class="badge">Connection</a>
+          <a href="marketplace.html#data-catalog" class="badge gold">Data Catalog</a>
+          <span class="badge">Innovation</span></div>
+      </div>
+
+      <!-- Connection -->
+      <div class="term has-photo" id="connection" data-class="character">
+        <div>
+          <div class="term-photo"><img src="assets/img/olivia-mentor.png" alt="Olivia with her mentor Yannick" loading="lazy"></div>
+          <div class="term-photo-cap">With her mentor, Yannick</div>
+        </div>
+        <div>
+          <div class="term-head">
+            <span class="term-name">Connection</span>
+            <span class="term-pron">/kəˈnek.ʃən/ · noun</span>
+            <span class="term-class">Character</span>
+          </div>
+          <p class="term-def">The art of building living links and relationships between people — essentially human
+            data lineage. Where others see an org chart, Olivia sees a graph of friendships waiting to be joined.
+            Foreign keys: optional. Trust: always enforced.</p>
+          <div class="term-ex"><b>Usage:</b> “She introduced two strangers on Monday; by Friday they’d shipped a feature together.”</div>
+          <div class="term-rel"><span class="lbl">Related</span>
+            <a href="#hospitality" class="badge">Hospitality</a>
+            <span class="badge">Data Lineage</span>
+            <span class="badge">Networking (the human kind)</span></div>
+        </div>
+      </div>
+
+      <!-- Elegance -->
+      <div class="term" id="elegance" data-class="style">
+        <div class="term-head">
+          <span class="term-name">Elegance</span>
+          <span class="term-pron">/ˈel.ə.ɡəns/ · noun</span>
+          <span class="term-class">Style</span>
+        </div>
+        <p class="term-def">A fully schema-validated approach to style. Wardrobe sourced exclusively from the
+          private sales of every Kering maison — Saint Laurent, Balenciaga, Bottega Veneta, Gucci — with a
+          strong, well-documented bias toward <em>Saint Laurent</em>. Outfits pass code review on the first try.</p>
+        <div class="term-ex"><b>Default value:</b> <b>Saint Laurent</b>. Null is not an accepted value. Casual Friday remains, respectfully, undefined.</div>
+        <div class="term-rel"><span class="lbl">Related</span>
+          <span class="badge">Saint Laurent</span><span class="badge">Balenciaga</span>
+          <span class="badge">Bottega Veneta</span><span class="badge">Gucci</span></div>
+      </div>
+
+      <!-- Multiculturality -->
+      <div class="term" id="multiculturality" data-class="world">
+        <div class="term-head">
+          <span class="term-name">Multiculturality</span>
+          <span class="term-pron">/ˌmʌl.ti.kʌl.tʃəˈræl.ə.ti/ · noun</span>
+          <span class="term-class">World</span>
+        </div>
+        <p class="term-def">A natively multi-source identity, joined cleanly across three cultures with zero
+          data-quality issues: Vietnamese by origin 🇻🇳, French by nationality 🇫🇷, and Lebanese by marriage 🇱🇧.
+          A masterclass in master-data management — three reference cultures, one harmonious golden record.</p>
+        <div class="term-ex"><b>Usage:</b> “Trilingual before lunch, and somehow makes everyone feel at home in all of them.”</div>
+        <div class="term-rel"><span class="lbl">Related</span>
+          <a href="#wanderlust" class="badge">Wanderlust</a>
+          <span class="badge">MDM (Golden Record)</span><span class="badge">Vietnamese · Native</span></div>
+      </div>
+
+      <!-- Wanderlust -->
+      <div class="term" id="wanderlust" data-class="world">
+        <div class="term-head">
+          <span class="term-name">Wanderlust</span>
+          <span class="term-pron">/ˈwɒn.də.lʌst/ · noun</span>
+          <span class="term-class">World</span>
+        </div>
+        <p class="term-def">A globally distributed presence with remarkably low latency from anywhere on Earth.
+          Replicated across London, Israel, Sweden, Vietnam, China and counting. High availability, multi-region
+          by design; the only catalog entry whose <em>location</em> field is simply: “yes.”</p>
+        <div class="term-ex"><b>Usage:</b> “Ask where she’s been and bring a snack — it’s a long, wonderful list.”</div>
+        <div class="term-rel"><span class="lbl">Related</span>
+          <span class="badge">London</span><span class="badge">Israel</span><span class="badge">Sweden</span>
+          <span class="badge">Vietnam</span><span class="badge">China</span></div>
+      </div>
+
+      <!-- Conviction -->
+      <div class="term" id="conviction" data-class="soul">
+        <div class="term-head">
+          <span class="term-name">Conviction</span>
+          <span class="term-pron">/kənˈvɪk.ʃən/ · noun</span>
+          <span class="term-class">Soul</span>
+        </div>
+        <p class="term-def">The immutable primary key of her identity — present in every trial, unshakeable through
+          the highs and the lows. Stays true to her values, never lets anyone disarm her, and always brings the
+          conversation safely back to what matters. The one record no governance policy will ever deprecate.</p>
+        <div class="term-ex"><b>Source of truth:</b> “Ne doute pas de toi, de tes convictions et surtout pas de ton identité.” — Olivia</div>
+        <div class="term-rel"><span class="lbl">Related</span>
+          <a href="#smile" class="badge">Smile</a>
+          <span class="badge">Primary Key (immutable)</span><span class="badge gold">Stay true to yourself</span></div>
+      </div>
+
+      <!-- Hospitality -->
+      <div class="term has-photo" id="hospitality" data-class="character">
+        <div>
+          <div class="term-photo"><img src="assets/img/olivia-dinner-group.jpg" alt="Olivia hosting a dinner with friends and colleagues" loading="lazy"></div>
+          <div class="term-photo-cap">Les petits plats dans les grands</div>
+        </div>
+        <div>
+          <div class="term-head">
+            <span class="term-name">Hospitality</span>
+            <span class="term-pron">/ˌhɒs.pɪˈtæl.ə.ti/ · noun</span>
+            <span class="term-class">Character</span>
+          </div>
+          <p class="term-def">Event orchestration with five-star data quality. A world-class talent for gatherings —
+            always at the <em>petit soin</em>, always “les petits plats dans les grands.” Every detail validated,
+            every guest a first-class record. Pipelines fail; her dinner parties never do.</p>
+          <div class="term-ex"><b>Usage:</b> “She didn’t just organise the event — she made each person feel like the guest of honour.”</div>
+          <div class="term-rel"><span class="lbl">Related</span>
+            <a href="#connection" class="badge">Connection</a>
+            <span class="badge">Data Quality (5★)</span><span class="badge">Orchestration</span></div>
+        </div>
+      </div>
+
+      <!-- Smile -->
+      <div class="term has-photo" id="smile" data-class="soul">
+        <div>
+          <div class="term-photo"><img src="assets/img/olivia-smile.jpg" alt="Olivia smiling" loading="lazy"></div>
+          <div class="term-photo-cap">Exhibit A · the certified-gold smile</div>
+        </div>
+        <div>
+          <div class="term-head">
+            <span class="term-name">Smile</span>
+            <span class="term-pron">/smaɪl/ · noun · <span style="color:var(--gold-soft)">certified gold</span></span>
+            <span class="term-class">Soul</span>
+          </div>
+          <p class="term-def">Her documented source of truth and officially registered core strength. A sincere smile
+            that never deceives — the single most trusted asset in the entire catalog, with a quality score of 100%
+            and an uptime record nobody has ever beaten.</p>
+          <div class="term-ex"><b>Source of truth:</b> “Ne l’oublie jamais : ta force est ton sourire sincère qui ne te trompera pas.” — Olivia</div>
+          <div class="term-rel"><span class="lbl">Related</span>
+            <a href="#conviction" class="badge">Conviction</a>
+            <a href="marketplace.html#great-team" class="badge gold">A Great Team</a>
+            <span class="badge">Trusted Asset · 100%</span></div>
+        </div>
+      </div>
+
+      <div class="callout" style="margin-top:30px">
+        <div class="quote">“Écoute ton cœur et cherche la paix.”</div>
+        <div class="cite">— the only data-quality rule that always passes. ✨</div>
+      </div>
+
+      <footer class="footer">
+        Glossary maintained with affection. New terms accepted only if true, and they all are. · <b>The Oliviata Catalog</b>
+      </footer>
+    </div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

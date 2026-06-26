@@ -1,0 +1,9 @@
+# Personal / source material — not for public repo
+olivia phan resume.pdf
+pictures/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
