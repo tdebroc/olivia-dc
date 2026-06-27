@@ -1,0 +1,10 @@
+runtime: python312
+entrypoint: gunicorn -b :$PORT main:app
+
+instance_class: F1
+automatic_scaling:
+  min_instances: 0
+  max_instances: 2
+
+includes:
+  - .env.yaml

@@ -7,3 +7,12 @@ pictures/
 
 # OS
 .DS_Store
+
+# Env file with secrets for App Engine (use .env.yaml.example as template)
+.env.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,17 @@
+.gcloudignore
+.git
+.gitignore
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Source material not part of the deployed site
+olivia phan resume.pdf
+speech-olivia.md
+pictures/
+
+# Local-only template
+app.yaml.example
